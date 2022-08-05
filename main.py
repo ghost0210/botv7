@@ -278,7 +278,7 @@ def onmessage(update,bot:ObigramClient):
         tl_admin_user = os.environ.get('tl_admin_user')
 
         #set in debug
-        tl_admin_user = 'DaylinLB'
+        tl_admin_user = 'Roxanita00'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -624,11 +624,12 @@ def main():
     bot_token = os.environ.get('bot_token')
 
     #set in debug
-    bot_token = '5545128659:AAGPtGOUzZVSbbi_Aisn2QZTKN16MesjhgU'
+    bot_token = '5590858880:AAHe-aqJ_r6A11eXPB2gtgxFV6mFGc_V1Bc'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
-    #bot.sendMessage(,'🚨 MoodleWachu Bot Iniciado 🚨\n                @wachu_bot')
+    #bot.sendMessage(,'🚨 MoodleWachu Bot Iniciado 🚨\n                @
+@Ghhhdrgirrdty_bot)
     print('Bot Iniciado')
     bot.run()
     asyncio.run()
